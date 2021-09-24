@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: 'Roboto Mono', monospace;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: #100F12;
+}
+header h1 {
+    font-size: 3.2em;
+    font-family: 'Times New Roman', Times, serif;
+    color: #FFF;
+}
+.titleColor {
+    color: #FFB612;
+}
+header ul {
+    display: flex;
+}
+header li {
+    margin: 0 5px;
+}
+header li a {
+    padding: 20px;
+    color: #FFF;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+}
+header li a:hover {
+    transition: .5s;
+    color: #FFB612;
+}
+#chegada {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../images/background.jpg") center no-repeat fixed; 
+    height: 800px;
+    color: #FFF;
+}
+#caixaChegada {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#caixaChegada h2 {
+    font-size: 4em;
+    margin: 15px 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
+}
+#caixaChegada h4 {
+    margin: 10px 0;
+    width: 400px;
+    font-size: 2em;
+}
+#caixaChegada button {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: #FFF;
+    opacity: .8;
+    transition: .8s;
+}
+#caixaChegada button:hover {
+    opacity: 1;
+}
+#caixaChegada button:focus {
+    outline: none;
+}
+#areaPlanos {
+    grid-template-columns: repeat(3, 1fr);
+    grid-column: 20px;
+}
