@@ -20,7 +20,7 @@
                         <a href="#planos">Planos</a>
                     </li>
                     <li>
-                        <a href="">Conheça-nos</a>
+                        <a href="#conhecanos">Conheça-nos</a>
                     </li>
                     <li>
                         <a href="#contatos">Contatos</a>
@@ -36,7 +36,7 @@
         
                 <h2>Bem vindo à OLD<span class="titleColor">GYM</span></h2>
                 <h4>Deixe-nos ajudá-lo a e se sentir melhor.</h4>
-                <button type="button">
+                <button type="button" id="buttonChegada">
                     Conheça-nos
                     <span>
                         <img src="assets/images/icons/chevrons-down.svg" alt="">
@@ -47,25 +47,31 @@
         
         </section>
         
-        <main>
-        
+        <main id="planos">
+            <h2>Escolha <span class="colorText">seu plano</span></h2>
+            <h3>Treine o quanto quiser com nossos planos.</h3>
             <div id="areaPlanos">
         
                 <div class="contornoPlanos">
-
-                    <h4>Semanal</h4>
+                    <div class="areaTituloPlanos">
+                        <h4 class="tituloPlanos">Plano <span class="titleColor"> Semanal </span> </h4>
+                    </div>
+                    <p class="diferenca">DIFERENCIAIS</p>
+                    
                     <ul>
                         <li>Acesso liberado apenas para uma modalidade</li>
                         <li>Aulas sobre a modalidade escolhida</li>
                         <li>Acesso limitado a todas as unidades da rede</li>
                     </ul>
-                    <button type="button">Preço</button>
+                    <button type="button">A partir de <br> <span class="subli"> R$ 40,00 </span> <br> por R$ 20,00</button>
 
                 </div>
         
                 <div class="contornoPlanos">
-
-                    <h4>Mensal</h4>
+                    <div class="areaTituloPlanos">
+                        <h4 class="tituloPlanos">Plano <br> <span class="titleColor"> Mensal </span> </h4>
+                    </div>
+                    <p class="diferenca">DIFERENCIAIS</p>
                     <ul>
                         <li>Acesso ilimitado a todas as áreas da academia</li>
                         <li>Aulas de Ginástica</li>
@@ -74,13 +80,15 @@
                         <li>Leve um amigo para treinar com você </li>
                         <li>1 mês para presentear algém</li>
                     </ul>
-                    <button type="button">Preço</button>
+                    <button type="button">A partir de <br> <span class="subli"> R$ 120,00</span> <br> por R$ 60,00 </button>
 
                 </div>
         
                 <div class="contornoPlanos">
-
-                    <h4>Anual</h4>
+                    <div class="areaTituloPlanos">
+                        <h4 class="tituloPlanos">Plano  <br> <span class="titleColor"> Anual </span> </h4>
+                    </div>
+                    <p class="diferenca">DIFERENCIAIS</p>
                     <ul>
                         <li>Acesso ilimitado a todas as áreas da academia</li>
                         <li>Aulas de musculação e aeróbicos</li>
@@ -91,12 +99,80 @@
                         <li>App Smart Fit Go</li>
                         <li>Sem taxa de cancelamento</li>
                     </ul>
-                    <button type="button">Preço</button>
+                    <button type="button">A partir de <br> <span class="subli"> R$ 200,00</span> <br> por R$ 100,00</button>
 
                 </div>
         
             </div>
         
         </main>
+
+        <article id="conhecanos">
+
+            <h1>Conheça o novo <span class="titleColor">OLD-GO</span></h1>
+            <h3>
+                Treinos online, consultoria com professores e nutricionistas via videochamada.
+            </h3>
+
+            <div id="areaAplicativo">
+                <div id="textAplicativo">
+                    <h2>
+                        Uma experiência completa
+                    </h2>
+                    <p>
+                        OLD-GO é um aplicativo onde você pode acessar o seu treino da semana feito pelo seu instrutor, analisar a unidade mas proxima de você, agendar uma consulta com a sua nutricionista favorita, tudo isso na palma da sua mão.
+                    </p>
+                </div>
+                
+                <img src="assets/images/new_smart_image.png" alt="">
+            </div>
+
+            <section id="cardsAplicativo">
+
+                <div class="areaCards">
+                    <img src="assets/images/coach.png" alt="">
+                    <h3> <span class="titleColor">GYM</span> Coach </h3>
+                    <p>
+                        Tenha mais motivação e ajuste sua rotina com um professor sempre por perto.
+                    </p>
+                    <h2>Agende atendimento</h2>
+                </div>
+                
+                <div class="areaCards">
+                    <img src="assets/images/nutri.png" alt="">
+                    <h3> <span class="titleColor">OLD</span> Nutri</h3>
+                    <p>
+                        Mude sua alimentação com nosso app de nutrição de um jeito simples e saudável.
+                    </p>
+                    <h2> Baixe agora </h2>
+                </div>
+                
+                <div class="areaCards">
+                    
+                    <img src="assets/images/aula_online.png" alt="">
+                    <h3>
+                        <span class="titleColor">OLD-FISIC</span> Class
+                    </h3>
+                    <p>
+                        O melhor da sua academia na sua casa! Aproveite suas aulas online onde e quando quiser.
+                    </p>
+                    <h2>Reservar aula</h2>
+                    
+                </div>
+
+                <div class="areaCards">
+
+                    <img src="assets/images/img_App.png" alt="">
+                    <h3><span class="titleColor">OLD-GO</span> APP</h3>
+                    <p>
+                        O melhor da sua academia na sua casa! Aproveite suas aulas online onde e quando quiser.
+                    </p>
+                    <h2>Baixa agora</h2>
+                    
+                </div>
+
+            </section>
+        </article>
+        <script src="assets/js/script.js"></script>
     </body>
 </html>
