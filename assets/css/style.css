@@ -51,7 +51,7 @@ header li a:hover {
     justify-content: center;
     align-items: center;
     background: url("../images/background.jpg") center no-repeat fixed; 
-    height: 800px;
+    height: 900px;
     color: #FFF;
 }
 #caixaChegada {
@@ -95,13 +95,13 @@ main {
     flex-direction: column;
     text-align: center;
     padding: 20px;
-    background-color: #100F12;
+    background-color: #1d1d1d;
 }
-main h2 {
+main h1 {
     font-size: 3.5em;
     color: #FFF;
 }
-main h3 {
+main h2 {
     width: 500px;
     margin: 50px auto;
     font-size: 1.7em;
@@ -170,13 +170,12 @@ main h3 {
 }
 #conhecanos {
     text-align: center;
-    padding: 30px;
 }
 #conhecanos h1 {
     font-size: 2.5em;
     margin: 15px;
 }
-#conhecanos > h3 {
+#conhecanos > h2 {
     width: 800px;
     margin: auto auto 50px auto;
     font-size: 1.5em;
@@ -212,21 +211,20 @@ main h3 {
     width: 300px;
     overflow: hidden;
     text-align: left;
-    background-color: rgba(230, 230, 230, 0.336);   
+    background-color: rgba(173, 173, 173, 0.062);
 }
 .areaCards img {
     width: 100%;
     height: 300px;
-    margin-bottom: 20px;
     transition: 1s;
 }
 .areaCards img:hover, .areaCards h2:hover {
-    transform: scale(1.1);
+    transform: scale(.9);
 }
 .areaCards h3 {
     font-size: 1.4em;
     padding-left: 10px;
-    margin-bottom: 10px;
+    margin: 10px 0;
     color: #525151;
 }
 .areaCards p {
@@ -250,3 +248,50 @@ main h3 {
     background-color: #000;
     color: #FFF;
 } 
+
+/* Área de serviços prestados */
+#servicos {
+    margin-top: 100px;
+    padding: 20px;
+    text-align: center;  
+    background-color: #1d1d1d;
+}
+#servicos h1 {
+    margin-top: 50px;
+    font-size: 2.8em;
+    color: #FFF;
+}
+#servicos > h3 {
+    width: 65%;
+    color: #FFF;
+    margin: 10px auto;
+}
+#flexServicos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    gap: 2em;
+    margin-top: 80px;
+}
+.cardsServicos {
+    text-align: center;
+    width: 300px;
+    overflow: hidden;
+}
+.cardsServicos img {
+    height: 300px;
+    transition: .8s;
+}
+.cardsServicos h3 {
+    z-index: 2;
+    position: relative;
+    bottom: 50px;
+    font-size: 2em;
+    color: #FFF;
+}
+.cardsServicos img:hover {
+    transform: scale(1.1);
+}
+
+/* Área de contatos */
