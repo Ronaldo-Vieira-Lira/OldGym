@@ -295,3 +295,48 @@ main h2 {
 }
 
 /* Área de contatos */
+
+#contatos {
+    text-align: center;
+    background-color: #1A1919; 
+}
+#contatos h1 {
+    padding: 50px 0 30px 0;
+    font-size: 2.5em;
+    color: #FFF;
+}
+#areaContatos {
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+}
+#areaContatos h2 {
+    color: #FFB612;
+}
+#areaContatos li {
+    margin: 5px;
+    color: #FFF;
+}
+#novidades {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #EFEFEF;
+}
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
+input[type="email"] {
+    width: 300px;
+    padding: 15px;
+    border: none;
+}
+button[type="submit"] {
+    padding: 15px;
+    border: none;
+    color: #FFF;
+    background-color: #525151;
+}
+
+/* Área do Footer */
